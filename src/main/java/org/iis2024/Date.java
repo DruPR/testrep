@@ -20,6 +20,9 @@ public class Date {
   private final int month;
   private final int year;
 
+  public void TremendoMetodo(){
+    System.out.println("Tremendo");
+  }
   /**
    * Retrieves the day component of this date.
    *
