@@ -15,11 +15,11 @@ import java.text.SimpleDateFormat;
  * Instances of this class are immutable, meaning that once a Date object is created, the day,
  * month, and year values cannot be changed.
  */
-public class Date {
-  private final int JewHelio;
-  private final int day;
-  private final int month;
-  private final int year;
+public Date(int dia, int mes, int año) {
+  this.day = dia;
+  this.month = mes;
+  this.year = año;
+
 
   public void TremendoMetodo(){
     System.out.println("Tremendo");
